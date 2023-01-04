@@ -1,14 +1,21 @@
+
+
+.row{
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+}
+
 h1 {
   text-align: center;
   background-color: rgba(32, 218, 168, 0.272);
   color: rgb(0, 0, 0);
   padding: 12px;
-  margin-right: 50px;
-  margin-left: 50px;
   border: 2px solid rgb(18, 213, 93);
   border-radius: 10px;
+  margin: 10px;
   
 }
+
 h1:hover{
   background-color: aliceblue;
   color: black;
